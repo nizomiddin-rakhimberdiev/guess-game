@@ -1,10 +1,10 @@
-# Random Guesser game
+# Random guesser game
 
-# How to run it?
-```bash
-git pull git@github.com:nizomiddin-rakhimberdiev/guess-game.git
- 
-cd guess-game
+## How to run it?
+'''bash
+git pull git@github.com:qirikki/number-guesser.git
+
+cd number-guesser
 
 python3 guess.py
-```
+'''
