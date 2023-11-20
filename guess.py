@@ -10,7 +10,7 @@ while True:
         print("Well done 👍")
         break
     
-    guesses = guesses + 1
+    guesses += 1
 
     if x == 3:
         print("Yutqazgizgiz ☹️:")
