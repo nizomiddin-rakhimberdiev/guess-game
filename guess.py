@@ -2,7 +2,7 @@ import random
 
 n = random.randint(1,10)
 
-x = 0
+guesses = 0
 
 while True:
     guess = int(input("1 dan 10 gacha son kiriting: "))
@@ -10,7 +10,7 @@ while True:
         print("Well done 👍")
         break
     
-    x += 1
+    guesses = guesses + 1
 
     if x == 3:
         print("Yutqazgizgiz ☹️:")
